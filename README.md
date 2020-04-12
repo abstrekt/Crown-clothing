@@ -1,4 +1,7 @@
+Udemy course project: E-commerce website with React, Firebase, routers, redux ...
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 
