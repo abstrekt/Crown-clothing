@@ -11,7 +11,7 @@ import CollectionsOverviewContainer from "../../components/collections-overview/
 //   firestore,
 //   convertCollectionsSnapshotToMap
 // } from "../../firebase/firebase.utils";
-import { fetchCollectionsStartAsync } from "../../redux/shop/shop.actions";
+import { fetchCollectionsStart } from "../../redux/shop/shop.actions";
 import CollectionPageContainer from "../collection/collection.container";
 
 class ShopPage extends React.Component {
@@ -21,8 +21,8 @@ class ShopPage extends React.Component {
   // unsubscribeFromSnapshot = null;
 
   componentDidMount() {
-    const { fetchCollectionsStartAsync } = this.props;
-    fetchCollectionsStartAsync();
+    const { fetchCollectionsStart } = this.props;
+    fetchCollectionsStart();
     // const { updateCollections } = this.props;
     // const collectionRef = firestore.collection("collections");
     // fetch(
@@ -56,7 +56,7 @@ class ShopPage extends React.Component {
 }
 
 const mapDispatchToProps = dispatch => ({
-  fetchCollectionsStartAsync: () => dispatch(fetchCollectionsStartAsync())
+  fetchCollectionsStart: () => dispatch(fetchCollectionsStart())
   // updateCollections: collectionsMap =>
   //   dispatch(updateCollections(collectionsMap))
 });
