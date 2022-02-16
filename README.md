@@ -9,8 +9,3 @@
     on what/how they calculate.  So, here we just repeat the same values for each. 
 ## Summary - 
 This table records a row for each completed transaction, including payments, refunds, and chargebacks. It unites the various sources like `cfw_litle_payments`, `cfw_payments`, `cfw_litle_refund_log`,`cfw_ios_purchase_transactions`";
-
-
-1. asdasd
-2. 2asdasd
-## asda
